@@ -6,10 +6,10 @@ require 'bready/version'
 Gem::Specification.new do |gem|
   gem.name          = "bready"
   gem.version       = Bready::VERSION
-  gem.authors       = ["HeeL, Arsen7"]
+  gem.authors       = ["HeeL"]
   gem.email         = ["parizhskiy@gmail.com"]
-  gem.description   = %q{Breadcrumbs}
-  gem.summary       = %q{Build customized breadcrumbs with Google rich snippets support}
+  gem.description   = %q{Bready is a tool for building breadcrumbs}
+  gem.summary       = %q{Build customized breadcrumbs, using Google Rich Snippets}
   gem.homepage      = "https://github.com/autoplenum/bready"
 
   gem.files         = `git ls-files`.split($/)
