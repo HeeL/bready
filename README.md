@@ -9,6 +9,7 @@ gem install bready
 or in your Gemfile:
 ```
 gem 'bready'
+```
 
 
 Configure
