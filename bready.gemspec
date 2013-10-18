@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["parizhskiy@gmail.com"]
   gem.description   = %q{Bready is a tool for building breadcrumbs}
   gem.summary       = %q{Build customized breadcrumbs, using Google Rich Snippets}
-  gem.homepage      = "https://github.com/autoplenum/bready"
+  gem.homepage      = "https://github.com/heel/bready"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }

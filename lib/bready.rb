@@ -6,7 +6,7 @@ module Bready
   class Breadcrumbs
     @@delimiter = ' &gt; '
     @@block_class = 'breadcrumbs'
-    @@block_tag = 'span'
+    @@block_tag = 'div'
     @@root_chunk = []
 
     def initialize(chunks)
