@@ -31,7 +31,6 @@ Bready::Breadcrumbs.setup do |config|
   # set the class for tag that was described above
   config.block_class = 'breadcrumbs'
 end
-
 ```
 
 
@@ -44,21 +43,18 @@ bready = Bready::Breadcrumbs.new([
   ['Categories', '/Categories/'],
   ['Products', '/Products/'],
 ])
-
 ```
 
 You can add more chunks later on. Here are examples of how to do it:
 
 ```ruby
 bready.add_chunk(['Products', '/Products/'])
-
 ```
 
 To add more than one chunk:
 
 ```ruby
 bready.add_chunks([['Products', '/Products/'], ['Products2', '/Products2/']])
-
 ```
 
 
@@ -66,5 +62,4 @@ In the view you can render breadcrumbs by simply calling render method of an ins
 
 ```ruby
 bready.render
-
 ```
